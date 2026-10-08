@@ -1,0 +1,15 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact"
+  },
+  "editor.quickSuggestions": {
+    "strings": true,
+    "comments": true,
+    "other": true
+  }
+}
