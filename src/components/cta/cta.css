@@ -7,7 +7,7 @@
     padding: 2rem;
     margin: 4rem;
     border-radius: 1rem;
-    background: var(--gradient-bar);
+    background: var(--gradient-bar)
 }
 
 .gpt3__cta-content {
@@ -16,6 +16,13 @@
 
     text-align: left;
     color: #fff;
+}
+
+.gpt3__cta-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
 }
 
 .gpt3__cta-content h3 {
@@ -49,14 +56,13 @@
     min-width: 150px;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .gpt3__cta {
         flex-direction: column;
     }
 
     .gpt3__cta-btn {
         margin: 2rem 0 0;
-
     }
 }
 
